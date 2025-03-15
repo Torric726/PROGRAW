@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adrian Torrico - Desarrollador Web</title>
+    <meta name="description" content="Portafolio profesional de Juan Pérez, Desarrollador Web Full Stack especializado en aplicaciones web modernas." />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <a href="#" class="logo">DATY</a>
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <span class="hamburger"></span>
+        </button>
+        <ul class="nav-menu">
+          <li><a href="#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+          <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+          <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <div class="container">
+          <img src="imagenes\logo_adrian.jpeg" 
+               alt="Foto de perfil" 
+               class="hero-image">
+          <h1>Adrian Torrico</h1>
+          <p class="hero-text">El legendario Cafesaurio</p>
+          <p class="hero-description">
+            Creador de todo y distribuidor de cafe 
+          </p>
+          <div class="social-links">
+            <a href="https://github.com/Torric726" target="_blank" rel="noopener noreferrer" class="social-link">
+              <i class="fab fa-github"></i> <!-- Icono de GitHub -->
+            </a>
+            <a href="https://www.linkedin.com/in/denzel-kkopa-a93b51347?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" class="social-link">
+              <i class="fab fa-linkedin"></i> <!-- Icono de LinkedIn -->
+            </a>
+          </div>
+          <a href="#contacto" class="cta-button">Contáctame</a>
+        </div>
+      </section>
+
+      <section id="sobre-mi" class="about">
+        <div class="container">
+          <h2>Sobre Mí</h2>
+          <div class="about-content">
+            <p>
+              Soy un desarrollador web apasionado por crear soluciones digitales
+              intuitivas y eficientes. Con experiencia en el desarrollo de
+              aplicaciones web modernas, me especializo en convertir ideas
+              complejas en experiencias de usuario excepcionales.
+            </p>
+            <p>
+              Mi enfoque se centra en la calidad del código, la accesibilidad
+              y el rendimiento, asegurando que cada proyecto cumpla con los
+              más altos estándares de la industria.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="habilidades" class="skills">
+        <div class="container">
+          <h2>Habilidades</h2>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>Frontend</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+              </ul>
+            </div>
+            <div class="skill-card">
+              <h3>Backend</h3>
+              <ul>
+                <li>Inteligencia Artificial</li>
+                <li>DBeaver</li>
+                <li>MySQL</li>
+                <li>Postgres</li>
+              </ul>
+            </div>
+            <div class="skill-card">
+              <h3>Herramientas</h3>
+              <ul>
+                <li>GitHub</li>
+                <li>VS Code</li>
+                <li>Terminal</li>
+                <li>TRAE</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos" class="projects">
+        <div class="container">
+          <h2>Proyectos</h2>
+          <div class="projects-grid">
+            <article class="project-card">
+              <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop" 
+                   alt="Captura de pantalla del proyecto E-commerce" 
+                   class="project-image">
+              <div class="project-content">
+                <h3>Plataforma E-commerce</h3>
+                <p>
+                  Una solución completa de comercio electrónico con carrito
+                  de compras, gestión de productos y procesamiento de pagos.
+                </p>
+                <div class="project-links">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <i class="icon-github"></i> Código
+                  </a>
+                  <a href="https://demo.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <i class="icon-external-link"></i> Demostracion
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=400&fit=crop" 
+                   alt="Captura de pantalla del gestor de tareas" 
+                   class="project-image">
+              <div class="project-content">
+                <h3>Gestor de Tareas</h3>
+                <p>
+                  Aplicación de gestión de tareas con funcionalidades de
+                  colaboración en tiempo real y organización de proyectos.
+                </p>
+                <div class="project-links">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <i class="icon-github"></i> Código
+                  </a>
+                  <a href="https://demo.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <i class="icon-external-link"></i> Demostracion
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="contact">
+        <div class="container">
+          <h2>Contacto</h2>
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Correo Electrónico</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+          </form>
+          <div class="contact-info">
+            <a href="denzelkkopa95@gmail.com" class="contact-github">
+              <i class="icon-mail"></i>
+              denzelkkopa95@gmail.com.com
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Adrian Torrico. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
